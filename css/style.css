@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Start CSS */
+.heder-background{
+    background: #264653; 
+}
+
+.header-btn{
+    background: #E76F51 !important;
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+/* Header End CSS */
+
+ /* Fetured Bikes 2021 CSS Start  */
+span{
+
+    color: #E76F51;
+}
+
+.img {
+        filter: url(filters.svg#grayscale);
+        /* Firefox 3.5+ */
+        filter: gray;
+        /* IE6-9 */
+        -webkit-filter: grayscale(1);
+        /* Google Chrome & Safari 6+ */
+      }
+      img:hover {
+        filter: none;
+        -webkit-filter: none;
+
+        justify-content: center;
+       
+}
+
+/* Fetured Bikes 2021 CSS End  */
+
+
+
+/* Happy clint section css start */
+
+.fa-star{
+
+    color: #E77C40;
+
+}
+h4{
+
+    color: #23A6F0;
+
+}
+
+/* Happy clint section css End */
+
+
+.subcribe-bg{
+background-color: #7a7d7e;
+}
+
+/* Image slider */
+
+#Image-slider{
+
+    background-color: rgb(198, 220, 212) !important;
+}
+
+
+/* Social Media Icon */
+.fab{
+
+    width: 80px;
+    height: 40px;
+}
+a i{
+   
+    transition:  all 0.4s linear;
+}
+a:hover i{
+    transform: scale(1.6);
+}
+.fa-youtube{
+
+    color: red;
+}
+
+.social-bg{
+
+    justify-content: center;
+    align-items: center;
+   
+}
+.fa-github{
+
+    color: #0c0606;
+}
